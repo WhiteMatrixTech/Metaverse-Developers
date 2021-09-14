@@ -1,10 +1,3 @@
-/**
- * @author chengliang
- * @date 2021/9/13 16:06
- * @brief
- *
- **/
-
 package token
 
 import (

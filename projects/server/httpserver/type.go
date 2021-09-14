@@ -1,10 +1,3 @@
-/**
- * @author chengliang
- * @date 2021/9/8 20:43
- * @brief
- *
- **/
-
 package httpserver
 
 import "net/http"
