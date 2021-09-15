@@ -14,5 +14,7 @@
     链接：https://pan.baidu.com/s/1NrdnnkqwZ9xQVP4tIAp8iw 
     提取码：nft9 
 仓库地址（含ppt）：
-    代码仓库：前端 https://github.com/qianchenghe/NftDreamWork 
+    代码仓库：
+        前端 https://github.com/qianchenghe/NftDreamWork 
+        后台 https://github.com/cryptoadu/NFTDreamWorkApi
     PPT地址：https://github.com/qianchenghe/NftDreamWork/blob/master/NFT%20Dream%20Work_20210915.ppt
