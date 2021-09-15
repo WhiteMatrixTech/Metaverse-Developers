@@ -6,5 +6,5 @@
 伍岳-视频录制
 Joy-PPT制作
 项目简介：这是一个发行奥特曼nft的游戏，玩家可以通过选择两张匿名卡片,如果两张卡片都表示一种角色，且该角色为奥特曼，则将获得奥特曼nft。每个奥特曼可以用来进行售卖、交易。
-视频链接：
-仓库地址（含ppt）：
+视频链接：https://www.youtube.com/watch?v=elNvfOu8Kbo
+仓库地址（含ppt）：https://github.com/Burlin-star/MatchingUltraman
