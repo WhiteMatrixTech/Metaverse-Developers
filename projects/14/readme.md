@@ -6,6 +6,6 @@
 
 项目简介：
 
-视频链接：
+视频链接：https://pan.baidu.com/s/1eGomIZcQ6DBNa_BIcNSf8g 提取码: 9hc4
 
-仓库地址（含ppt）：
+仓库地址（含ppt）：https://github.com/zem007/Metaverse-Developers/tree/main/projects/14
