@@ -16,6 +16,6 @@
 
 3.合约用于控制权限与处理数据
 
-视频链接：
+视频链接：https://www.bilibili.com/video/BV12L411x7hp/
 
 仓库地址（含ppt）：https://github.com/Gangston/Metaverse-Developers/tree/main/projects/20
