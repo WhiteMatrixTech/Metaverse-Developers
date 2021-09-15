@@ -5,9 +5,8 @@
 ②.王瀚（政务端后端）
 ③.UHEVER（政务端前端）
 ④.1#（城市模型信息本土化）
-⑤.Tiffany（宣发审核）
-⑥.周子焱(整体策划，讲解剪辑，
-城市模型引擎，政务端UI)
+⑤.Tiffany（宣发,导图审核）
+⑥.周子焱(整体策划，讲解剪辑，城市模型引擎，政务端UI)
 
 项目简介：分设为两个客户端与一条联盟链
 
@@ -17,6 +16,6 @@
 
 3.合约用于控制权限与处理数据
 
-视频链接：
+视频链接：https://www.bilibili.com/video/BV12L411x7hp/
 
 仓库地址（含ppt）：https://github.com/Gangston/Metaverse-Developers/tree/main/projects/20
