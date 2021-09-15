@@ -1,0 +1,32 @@
+.buyPanel {
+  width: 100%;
+  margin-top: 100px;
+  .rowOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #32e5fc;
+    margin-bottom: 30px;
+  }
+  .rowTwo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .buyBtn {
+      padding: 3px 20px;
+      border: solid 1px #fff;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      background-color: transparent;
+      color: #fff;
+      &:hover {
+        background-color: rgba($color: #fff, $alpha: 0.2);
+      }
+    }
+    .soldOut {
+      color: #f55;
+      font-size: 24px;
+    }
+  }
+}

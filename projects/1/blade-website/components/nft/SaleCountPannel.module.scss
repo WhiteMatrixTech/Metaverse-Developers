@@ -1,0 +1,13 @@
+.amount {
+  display: flex;
+  align-items: flex-end;
+  .leftAmount {
+    font-size: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+  }
+  .totalAmount {
+    font-size: 14px;
+  }
+}
