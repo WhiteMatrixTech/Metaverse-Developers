@@ -1,0 +1,420 @@
+[
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_router",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_oracle",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "_targetToken",
+				"type": "address"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenA",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenB",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amountA",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amountB",
+				"type": "uint256"
+			}
+		],
+		"name": "addLiquidity",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_pair",
+				"type": "address"
+			}
+		],
+		"name": "addPair",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_addToken",
+				"type": "address"
+			}
+		],
+		"name": "addWhitelist",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_pair",
+				"type": "address"
+			}
+		],
+		"name": "checkPair",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_delToken",
+				"type": "address"
+			}
+		],
+		"name": "delWhitelist",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "outputToken",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "outputAmount",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "anchorToken",
+				"type": "address"
+			}
+		],
+		"name": "getQuantity",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_index",
+				"type": "uint256"
+			}
+		],
+		"name": "getWhitelist",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getWhitelistLength",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_token",
+				"type": "address"
+			}
+		],
+		"name": "isWhitelist",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "oracle",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "pairList",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_pair",
+				"type": "address"
+			}
+		],
+		"name": "removePair",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "router",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "_oracle",
+				"type": "address"
+			}
+		],
+		"name": "setOracle",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "newRouter",
+				"type": "address"
+			}
+		],
+		"name": "setRouter",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "signIn",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "account",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "input",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "output",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256",
+				"name": "amount",
+				"type": "uint256"
+			}
+		],
+		"name": "swap",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "targetToken",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "userList",
+		"outputs": [
+			{
+				"internalType": "uint256",
+				"name": "signInDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "signInContinuous",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "swapDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "swapQuantity",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "swapContinuous",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "liquidityDate",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "liquidityWeekDay",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "liquidityQuantity",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "totalPoints",
+				"type": "uint256"
+			},
+			{
+				"internalType": "bool",
+				"name": "isUsed",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
