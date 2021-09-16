@@ -1,0 +1,54 @@
+{
+  "name": "pancakeswap",
+  "timestamp": "2020-08-25T15:41:29.665Z",
+  "version": {
+    "major": 1,
+    "minor": 3,
+    "patch": 1
+  },
+  "tags": {},
+  "logoURI": "/images/coins/WMATIC.png",
+  "keywords": ["pancake", "default"],
+  "tokens": [
+    {
+      "name": "WMATIC Token",
+      "symbol": "WMATIC",
+      "address": "0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "/images/coins/BUSD.png"
+    },
+    {
+      "name": "TT1 Token",
+      "symbol": "TT1",
+      "address": "0x79495d608C07E2aa2cD2faB086C63C7D8cC9b366",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC.png"
+    },
+    {
+      "name": "TT2 Token",
+      "symbol": "TT2",
+      "address": "0x8cEdb8eC003CCD0806DEf4e07c25691646aA0145",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC.png"
+    },
+    {
+      "name": "TT3 Token",
+      "symbol": "TT3",
+      "address": "0x5956ed4a31A5BD81D4CA4Cbe20E32Bc910271372",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC.png"
+    },
+    {
+      "name": "TT4 Token",
+      "symbol": "TT4",
+      "address": "0xF6164A497A8725778A0a2769FB2aC600b87DFefC",
+      "chainId": 80001,
+      "decimals": 18,
+      "logoURI": "/images/coins/BTC.png"
+    }
+  ]
+}

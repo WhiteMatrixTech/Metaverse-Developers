@@ -1,0 +1,68 @@
+.root {
+  background: hsla(0, 0%, 100%, 0.05) !important;
+  backdrop-filter: blur(30px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.main {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .navs {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    margin: 0;
+    justify-content: flex-end;
+    flex: 1;
+    li {
+      margin: 0 10px;
+      a {
+        &:hover {
+          color: #ddd;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .bar {
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .navs {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .bar {
+      display: block;
+      width: 20px;
+      margin-right: 10px;
+    }
+  }
+  .logo {
+    width: 160px;
+  }
+}
+
+.side {
+  background-color: #0a1019;
+  color: #fff;
+  width: 200px;
+  .sideNavs {
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    justify-content: flex-end;
+    flex: 1;
+    li {
+      margin: 20px 0;
+    }
+  }
+}
