@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2541390 */
+  src: url('iconfont.woff2?t=1622538873734') format('woff2'),
+       url('iconfont.woff?t=1622538873734') format('woff'),
+       url('iconfont.ttf?t=1622538873734') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.iconr_common_icon_popup_05:before {
+  content: "\e6da";
+}
+
+.iconr_common_icon_popup_bd_n1:before {
+  content: "\e6e4";
+}
+
+.iconer_common_icon_add_yellow:before {
+  content: "\e6fe";
+}
+
+.iconer_common_icon_add_minus:before {
+  content: "\e6ff";
+}
+
+.iconer_common_icon_mailbox:before {
+  content: "\e700";
+}
+
+.iconer_icon_arrow:before {
+  content: "\e701";
+}
+
+.iconer_common_icon_search:before {
+  content: "\e702";
+}
+
+.iconer_icon_add:before {
+  content: "\e703";
+}
+
+.iconer_icon_data:before {
+  content: "\e704";
+}
+
+.iconer_icon_arrow_under:before {
+  content: "\e705";
+}
+
+.iconer_icon_back:before {
+  content: "\e706";
+}
+
+.iconer_common_icon_medium:before {
+  content: "\e707";
+}
+
+.iconer_common_icon_telegraph:before {
+  content: "\e708";
+}
+
+.iconer_common_icon_git:before {
+  content: "\e709";
+}
+
+.iconer_icon_lightning:before {
+  content: "\e70a";
+}
+
+.iconer_icon_setup:before {
+  content: "\e70b";
+}
+
+.iconer_common_icon_twitter:before {
+  content: "\e70c";
+}
+
+.iconer_icon_order:before {
+  content: "\e70d";
+}
+
+.iconer_icon_switch_gray_small:before {
+  content: "\e70e";
+}
+
+.iconer_icon_empty:before {
+  content: "\e70f";
+}
+
+.iconer_nav_icon_dao:before {
+  content: "\e710";
+}
+
+.iconer_icon_subscript_black_small:before {
+  content: "\e711";
+}
+
+.iconer_icon_wait:before {
+  content: "\e712";
+}
+
+.iconer_nav_icon_data:before {
+  content: "\e713";
+}
+
+.iconer_icon_subscript_gray_right:before {
+  content: "\e714";
+}
+
+.iconer_icon_switch_red_big:before {
+  content: "\e715";
+}
+
+.iconer_nav_icon_mining:before {
+  content: "\e716";
+}
+
+.iconer_nav_icon_copy:before {
+  content: "\e717";
+}
+
+.iconer_nav_icon_paper:before {
+  content: "\e718";
+}
+
+.iconer_nav_icon_safety:before {
+  content: "\e719";
+}
+
+.iconer_nav_icon_polymerization:before {
+  content: "\e71a";
+}
+
+.iconer_icon_market:before {
+  content: "\e71b";
+}
+
+.iconer_top_icon_more:before {
+  content: "\e71c";
+}
+
+.iconer_popup_icon_tick_big:before {
+  content: "\e71d";
+}
+
+.iconer_popup_icon_wait:before {
+  content: "\e71e";
+}
+
+.iconer_popup_icon_close:before {
+  content: "\e71f";
+}
+
+.iconer_popup_icon_load:before {
+  content: "\e720";
+}
+
+.iconer_popup_icon_exclamation:before {
+  content: "\e721";
+}
+
+.iconer_popup_icon_carry:before {
+  content: "\e722";
+}
+
