@@ -1,0 +1,44 @@
+.root {
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 150%;
+  position: relative;
+  margin-bottom: 20px;
+}
+.img {
+  width: calc(100% - 40px);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+}
+.name {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+
+.c1 {
+  color: #fff;
+}
+.c2 {
+  color: #007acc;
+}
+
+.c3 {
+  color: #f318f5;
+}
