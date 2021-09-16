@@ -1,0 +1,16 @@
+BKEY合约：对应的decimal == 6
+合约Shasta测试网部署：消耗了837389的能量
+address: TXjUo1K4S5LYqMm62cS4QWotrLGYdYwZu1
+HEX: 41eeba205e2929c0c20465fe30ce04382213e034f9
+
+===================================================
+操作步骤：1.先部署BKEY的合约，此时owner拥有所有BKEY
+          2.设置好LP合约与BKEY合约地址之后（注意0x41开头+小写），设置挖矿周期，部署pool合约，此时pool合约中BKEY数量为0
+          3.owner设置pool的管理员为自己 -> 设置notifyAmount开启挖矿周期 -> owner向pool合约中注入rewards
+          4.质押者要先在LP token的合约调用approve方法，然后才能使用pool合约中的stake方法
+
+===================================================
+BKEYPool1合约：
+合约Shasta测试网部署：消耗了1052674的能量
+address: TXapcba3MrshZJ5Bb78QpoS4q41fu8w3tJ
+HEX: 41ed16ed999583f7822435d350e9b4eb66ee284b16

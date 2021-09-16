@@ -1,0 +1,13 @@
+对应decimal == 18
+TMB合约Shasta测试网部署：消耗了500trx，相当于5e8 的能量
+address: TAwM7DhYEVhcebchykT7AAw4VW54nCR12M
+HEX: 410a9e0f82f439c5326f6a89f3c05a4d9c5a6872d1
+
+address: TZDLWQaK3BRqcErWwHWeGcgEesrXbBPSbh
+HEX: 41fef6fb70beae7967a2d01fdb6782b0d22adb37fb
+
+=============================================================
+对应decimal == 6
+TMB合约Shasta测试网部署：消耗了3568131能量
+address: TAPvZtZ1EQoqZH3eJgZ3oViXzZGaiRx9hq
+HEX: 4104acae406a5501d34cd839893ffe3eca1a8822e0

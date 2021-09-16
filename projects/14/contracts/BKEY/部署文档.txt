@@ -1,0 +1,10 @@
+对应的decimal == 18
+BKEY合约Shasta测试网部署：消耗了120trx，相当于1.18e8 的能量
+address: TNCupmRJVVAkT4paC5QUT7NTTqHDsPfv6g
+HEX: 418638fe6d33ec72d01699120985652dce40a23374
+
+===============================================================
+对应的decimal == 6
+BKEY合约Shasta测试网部署：消耗了837389的能量
+address: TXjUo1K4S5LYqMm62cS4QWotrLGYdYwZu1
+HEX: 41eeba205e2929c0c20465fe30ce04382213e034f9
