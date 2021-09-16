@@ -1,0 +1,39 @@
+.img {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+.info {
+  margin-top: 20px;
+  text-align: center;
+  color: #666;
+  a {
+    text-decoration: underline;
+    color: #000;
+    margin-left: 10px;
+  }
+}
+.header {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.card {
+  cursor: pointer;
+}
+.attr {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.c1 {
+  color: #fff;
+}
+.c2 {
+  color: #007acc;
+}
+
+.c3 {
+  color: #f318f5;
+}
