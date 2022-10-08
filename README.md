@@ -12,12 +12,12 @@
        
     git config --global user.email xxxxxx@xxx.com
 
- ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8201.png)
+ ![](https://d3f4u6mt7x0ttm.cloudfront.net/8201.png)
 
    创建本地ssh
 
     ssh-keygen -t rsa -C "xxxxxx@xxx.com" 
- ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8266.png)
+ ![](https://d3f4u6mt7x0ttm.cloudfront.net/8266.png)
 
    将ssh配置到Github中
 
@@ -28,7 +28,7 @@
    linux是/home/自己电脑用户名/.ssh
 
 
- ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8203.png)
+ ![](https://d3f4u6mt7x0ttm.cloudfront.net/8203.png)
 
    用记事本打开id_rsa.pub文件，复制文件内容：
 > ssh-rsa XXXXX....XXX
@@ -37,27 +37,27 @@
 
    登录github网址，个人账户的settings-SSH and GPG keys，点击New SSH key并粘贴id_rsa.pub文件中内容，点击Add SSH key, title随便写。
 
-   ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8204.png)
+   ![](https://d3f4u6mt7x0ttm.cloudfront.net/8204.png)
 
-   ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8205.png)
+   ![](https://d3f4u6mt7x0ttm.cloudfront.net/8205.png)
 
    验证是否配置成功
 
     ssh -T git@github.com
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8207.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8207.png)
 
 ### 3.fork开源代码到自己的远程仓库
 
 仓库地址：https://github.com/WhiteMatrixTech/Metaverse-Developers
 
-  ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8208.png)
+  ![](https://d3f4u6mt7x0ttm.cloudfront.net/8208.png)
 
 
 
 ### 4.通过SSH的方法Clone自己的仓库到本地电脑
 
-  ![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8209.png)
+  ![](https://d3f4u6mt7x0ttm.cloudfront.net/8209.png)
 
     git clone git@github.com:XXXxx
 
@@ -89,30 +89,30 @@ git push
 
 
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8233.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8233.png)
 
   此时github端就生成了README.md文件
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8239.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8239.png)
 
 ### 6.点击New pull request, 创建一个 PR（pull request）
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8213.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8213.png)
 
 点击Create pull request,进行提交
 
 ### 7.在 Github 上将 PR 转成 Draft，之后将所有参赛相关信息放在其中
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8236.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8236.png)
 
 
 
 
 
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8237.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8237.png)
 
 ### 8.在个人端完成项目，修改内容，提交
 
 ### 9.当完成作品时请修改 PR 状态为 Ready For Review，会有工作人员合并 PR
-![](https://chainide-forum-img.s3.ap-northeast-1.amazonaws.com/8238.png)
+![](https://d3f4u6mt7x0ttm.cloudfront.net/8238.png)
 
